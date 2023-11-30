@@ -1,0 +1,7 @@
+<launch>
+  <node pkg ="comm_suite" name ="comm_sender_ugv0" type ="sender" output = "screen"> 
+  </node>
+  <node pkg ="comm_suite" name ="comm_receiver_ugv0" type ="receiver" output = "screen"> 
+  </node>
+
+</launch>
